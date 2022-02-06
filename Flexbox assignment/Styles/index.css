@@ -1,12 +1,22 @@
 .flex-container-main {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    
-    
 }
 
 .flex-container-main > div {
+    background-color: bisque;
+    width: 468px;
+    height: 160px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.flex-container-main2{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container-main2 > div {
     background-color: bisque;
     width: 468px;
     height: 160px;
@@ -18,7 +28,7 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 
 .flex-container1 >div {
@@ -27,13 +37,14 @@
     height: 78px;
     margin: 20px;
     line-height: 75px;
+    border-radius: 4px;
 }
 
 .flex-container2 {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-end;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .flex-container2 >div {
@@ -41,21 +52,87 @@
     width: 78px;
     height: 78px;
     margin: 20px;
-    line-height: 75px;
+    border-radius: 4px;
 }
 
 .flex-container3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
 }
-    
+
+.flex-container3 >div {
+    background-color: blueviolet;
+    width: 78px;
+    margin: 20px;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    font-size: 12px;
+    text-align: center;
+    line-height: 14px;
+}
+
+#item2container3 {
+    align-self: center;
+    height: 64px;
+    width: 78px;
+    border-radius: 4px;
+}
 
 .flex-container4 {
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container4 >div {
+    background-color: blueviolet;
+    width: 78px;
+    height: 120px;
+    margin: 20px;
+    border-radius: 4px;
 }
 
 .flex-container5 {
-    
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-container5 >div {
+    background-color: blueviolet;
+    width: 78px;
+    height: 78px;
+    margin: 20px;
+    border-radius: 4px;
+}
+
+#item1con5, #item2con5 {
+    align-self: flex-start;
+}
+
+#item3con5 {
+    align-self: flex-end;
 }
 
 .flex-container6 {
-   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container6 >div {
+    background-color: blueviolet;
+    width: 78px;
+    height: 78px;
+    margin: 20px;
+    border-radius: 4px;
+}
+
+#item2con6 {
+    width: 156px;
+    height: 78px;
 }
