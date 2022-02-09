@@ -252,3 +252,32 @@ fa-play {
     /* or 162% */
     color: #544837;
 }
+
+.fourth-section {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 25px;
+    height: 427px;
+    max-width: 486px;
+    width: 100%;
+}
+
+.sect4item {
+    display: flex;
+    gap: 10px;
+}
+
+.check-mark-icon {
+    width: 35px;
+    height: 35px;
+}
