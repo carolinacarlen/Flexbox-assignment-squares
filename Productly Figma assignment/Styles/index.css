@@ -14,14 +14,6 @@ li, a {
     text-decoration: none;
 }
 
-.buttons {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    color: #173A56;
-    text-decoration: none;
-}
-
 header {
     display: flex;
     justify-content: space-between;
@@ -200,21 +192,6 @@ fa-play {
     color: #544837;
 }
 
-
-.sect2btn {
-    background: #FF9900;
-    border-radius: 4px;
-    width: 175px;   
-    height: 53px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height */
-    color: #FFFFFF;
-}
-
 .third-section{
     display: flex;
     flex-direction: row;
@@ -281,3 +258,41 @@ fa-play {
     width: 35px;
     height: 35px;
 }
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 10%; 
+    margin-top: 111px;
+}
+
+.nav__linksfooter {
+    list-style: none;
+}
+
+.nav__linksfooter li {
+    display: flex;
+    margin: 15px; 
+    font-size: 16px;
+}
+
+.nav__linksfooter li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__linksfooter li a:hover {
+    color: aqua;
+}
+
+.logo-footer {
+    position: relative;
+    bottom: 100px;
+}
+
+.boxandbtn {
+    position: relative;
+    right: 50px;
+}
+    
+
